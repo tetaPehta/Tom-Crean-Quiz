@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+h1 {
+    font-family: Lora, sans-serif;
+    font-weight: 300;
+    color:#3a3a3a;
+    text-align: center;
+}
+
+h2 {
+    font-family: Lora, sans-serif;
+    font-weight: 200;
+    color:#3a3a3a; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+p {
+    font-family: Lora, sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+#heading {
+	font-size: 4rem;
+	text-transform: uppercase;
+    padding-top: 10px;
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/tom-crean-hero1.jpeg") no-repeat center center;
+    background-size: center;
+    margin-top: 30px;
+}
+
+#wrapper {
+    padding-top: 30px;
+ 
+}
+
+
+
+
+
