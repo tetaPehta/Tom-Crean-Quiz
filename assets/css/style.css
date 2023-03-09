@@ -55,6 +55,18 @@ p {
     padding-top: 30px;
  
 }
+/* Button to start the quiz*/
+
+.btn-start {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    margin: 1rem;
+}
+.container {
+    text-align: center;
+    padding-top: 20px;
+}
 
 
 
