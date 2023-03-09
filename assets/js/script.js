@@ -78,3 +78,10 @@ let questions = [
         ]
     }
 ]
+
+/* Onclick events for buttons. Action will call respective functions for particular button when clicked*/
+
+restartBtn.addEventListener('click',restart);
+prevBtn.addEventListener('click',prev);
+nextBtn.addEventListener('click',next);
+restartBtn.addEventListener('click',submit);
