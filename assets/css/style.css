@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+/*Style for index.html*/
 
 h1 {
     font-family: Lora, sans-serif;
@@ -65,10 +66,90 @@ p {
     color: #3a3a3a;
     margin: 1rem;
 }
-.container {
+.container-index {
     text-align: center;
     padding-top: 20px;
 }
+
+/*Style for quiz.html*/
+
+.container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-top: 20rem;
+}
+.controls {
+    width: 100vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.score {
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#user-score {
+    color:aqua
+}
+#user-total-score{
+    color: blue;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 200;
+    border-radius: 5px;
+    color: wheat;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color:black;
+    padding:13px;
+}
+
+.options {
+    padding: 10px;
+    order:3;
+
+}
+
+.controls {
+    padding: 10px;
+    order:4;
+}
+
+.hide {
+    display: none;
+}
+
 
 
 

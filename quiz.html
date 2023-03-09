@@ -10,19 +10,30 @@
 <body>
     <div class="conteiner">
         <div class="score">
-         <span class="user-score">0</span>
-         <span class="user-total-score">/ 6</span>
+         <span id="user-score">0</span>
+         <span id="user-total-score">/ 6</span>
         </div>
 
-     <div class="content" id="question-area">
-        <div id="question-text">WHO IS TC</div>
-        <div class="options">
-            <button class="btn btn-option" id="true">True</button>
-            <button class="btn btn-option" id="false">False</button>
+     <h2 id="question-area">who is tom crean</h2>
+        <div class="choice-box">
+            <p class="choice-prefix">A</p>
+            <p class="choice-text" data-number="1"></p>
         </div>
-     </div>
+        <div class="choice-box">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text" data-number="2"></p>
+        </div>
+        <div class="choice-box">
+            <p class="choice-prefix">C</p>
+            <p class="choice-text" data-number="3"></p>
+        </div>
+        <div class="choice-box">
+            <p class="choice-prefix">D</p>
+            <p class="choice-text" data-number="4"></p>
+        </div>
 
-     <div class="controls">
+        
+    <div class="controls">
         <button class="btn btn-restart" id="restart">Restart</button>
         <button class="btn btn-previous" id="previous">Prev</button>
         <button class="btn btn-next" id="next">Next</button>
@@ -34,7 +45,7 @@
 
 
 
-    
+    <!-- JS Link -->
     <script src="assets/js/script.js"></script> 
 </body>
 </html>
