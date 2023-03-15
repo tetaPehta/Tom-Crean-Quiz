@@ -10,76 +10,74 @@ const choiceD = document.getElementById('D');
 const progress = document.getElementById('progress');
 const scorediv = document.getElementById('score-container');
 
-/* questions and possible anwsers for the quiz, with true or false statment.*/
-
-let currentQuestion = 0;
-var score = 0;
+/* questions and possible anwseres for multi choice quiz.*/
 
 let questions = [
-    {
-        question: "NAME THE CONTINENT THAT TOM CREAN TRAVELED TO?",
-        anwsers: [
-            {option:"Australia",anwser:false},
-            {option:"North Pole",anwser:false},
-            {option:"Africa",anwser:false},
-            {option:"South Pole",anwser:true}
-        ]
-    },
-    {
-        question: "WHAT IS COVERING TOM CREANS HEAD IN THE FAMUS PICTURE IN BOARD SHUP ENDURANCE?",
-        anwsers: [
-            {option:"A sock from his travels",anwser:false},
-            {option:"A captains hat",anwser:false},
-            {option:"Asleave of a jumper",anwser:true},
-            {option:"A cap of his crewman",anwser:false}
-        ]
-    },
-    {
-        question: "WHAT IS THE NAME OF ICONIC PUB IN ANNASCAUL, CO.KERRY?",
-        anwsers: [
-            {option:"Tom Crean Pub",anwser:false},
-            {option:"The Penguin Pub",anwser:false},
-            {option: "South Pole Inn",anwser:true},
-            {option:"The Iceberg Inn",anwser:false}
-        ]
-    },
-    {
-        question:"WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUE OF HIS MEMORIAL PARK?",
-        anwsers: [
-            {option:"Toby, Nelson, Nell",anwser:true},
-            {option:"Jack, Jhon, Green",anwser:false},
-            {option:"Tom, Sean, Bobby",anwser:false},
-            {option:"James, Ruby, Terra",anwser:false}
-        ]
-    },
-    {
-        question:"WITCH PART OF HIS BODY DID TOM CREAN SHOW THE LOCAL KIDS TO SCARE THEM AWAY?",
-        anwsers: [
-            {option:"His broken leg",anwser:false},
-            {option:"His black toes",anwser:true},
-            {option:"His wobbly tooth",anwser:false},
-            {option:"His crooked finger",anwser:false}
-        ]
-    },
-    {
-        question:"TOM FOUND A FURRY ANIMAL ONBOARD THE SHIP TERRA NOVA IN 1910. wHAT IS THE TITLE OF THE BOOK NAMED AFTER IT?",
-        anwsers: [
-            {option:"Tom Crean's Dog",anwser:false},
-            {option:"Tom Crean's Fox",anwser:false},
-            {option:"Tom Crean's Rabbit",anwser:true},
-            {option:"Tom Crean's Wolf",anwser:false}
-
-        ]
-    },
-    {
-        question:"TOM CREANS RELATIVES OPENED A BREWERY IN KENMARE, IRELAND. WHAT IS THE NAME OF THE ALE THEY MAKE?",
-        anwsers: [
-            {option:"Expedition Ale",anwser:true},
-            {option:"South Pole Ale",anwser:false},
-            {option:"The Frozen Ale",anwser:false},
-            {option:"Tom Crean's Ale",anwser:false}
-        ]
-    }
+ {
+    imgSrc: "images/southpole.jpeg",
+    question: "NAME THE CONTINENT THAT TOM CREAN TRAVELED TO?", 
+    choiceA:"Australia",
+    choiceB:"North Pole",
+    choiceC:"Africa",
+    choiceD:"South Pole",
+    correct:"D"
+        
+ }, {
+    imgSrc: "images/south-pole-pub.jpeg",
+    question: "WHAT NIS THE NAME OF THE ICONIC PUB IN ANNASCAUL, CO.KERRY?", 
+    choiceA:"Tom Crean Pub",
+    choiceB:"South Pole Inn",
+    choiceC:"The penguin Pub",
+    choiceD:"The Iceberg Inn",
+    correct:"B"
+     
+ }, {
+    imgSrc: "images/tom-crean-sock1.jpeg",
+    question: "WHAT IS ON TOM CREANS HEAD IN THE FAMOUS PICTURE ON BOARD OF SHIP ENDURANCE?", 
+    choiceA:"Sock from his travels",
+    choiceB:"His captains hat",
+    choiceC:"Sleve of his jumper",
+    choiceD:"Cap of a crewman",
+    correct:"C"
+ 
+ }, {
+    imgSrc: "images/tom-crean-statue.jpeg",
+    question: "WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUES OF HIS MEMORIAL PARK?", 
+    choiceA:"Toby, Nelson, Nell",
+    choiceB:"Tom, Sean, Bobby",
+    choiceC:"Jack, Jhon, Green",
+    choiceD:"James, Ruby, Terra",
+    correct:"A"
+ 
+ }, {
+    imgSrc: "images/old-tom-crean.jpeg",
+    question: "WHAT PART OF HIS BODY DID TOM CREAN SHOW TO THE LOCAL KIDS TO SCARE THEM AWAY?", 
+    choiceA:"His black toes",
+    choiceB:"His wobbly tooth",
+    choiceC:"His broken leg",
+    choiceD:"His crooked finger",
+    correct:"A"
+ 
+ }, {
+    imgSrc: "images/southpole.jpeg",
+    question: "TOM FOUND A FURRY ANIMAL ONBOARD THE SHIP TERRA NOVA IN 1910. WHAT IS THE TITLE OF THE BOOK?", 
+    choiceA:"Tom Crean's Dog",
+    choiceB:"Tom Crean's Rabbit",
+    choiceC:"Tom Crean's Fox",
+    choiceD:"Tom Crean's Wolf",
+    correct:"B"
+ 
+ }, {
+    imgSrc: "images/southpole.jpeg",
+    question: "TOM CREANS FAMILY OPENED A BREWARY IN KENMARE, IRELAND. NAME THE ALE THEY MAKE?", 
+    choiceA:"Expedition Ale",
+    choiceB:"South Pole Ale",
+    choiceC:"The Frozen Ale",
+    choiceD:"Tom Crean's Ale",
+    correct:"A"
+ 
+ },
+   
 ]
 
 /* Onclick events for buttons. Action will call respective functions for particular button when clicked*/
