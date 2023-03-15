@@ -2,7 +2,7 @@
 const start = document.getElementById('start');
 const quiz = document.getElementById('quiz');
 const question = document.getElementById('question');
-const questionimg = document.getElementById('question-img');
+const questionimg = document.getElementById('questionimg');
 const choiceA = document.getElementById('A');
 const choiceB = document.getElementById('B');
 const choiceC= document.getElementById('C');
@@ -95,7 +95,7 @@ function renderQuestion(){
    let q = questions[runningQuestion];
 
    question.innerHTML = "<p>"+ q.question +"</p>";
-   questionimg.innerHTML = "img src=" + q.imgSrc + ">";
+  /* questionimg.innerHTML = `img src=${q.question}>`; */
    choiceA.innerHTML = q.choiceA;
    choiceB.innerHTML = q.choiceB;
    choiceC.innerHTML = q.choiceC;
@@ -116,7 +116,7 @@ function startQuiz (){
 
 /* render progress */
 
-function renderProgress(){
+/*function renderProgress(){
     for(let qInex = 0; qInex <= lastQuestion; qInex++){
         progress.innerHTML += "<div class='prog' id=" + qInex + "></div>"; 
     }
@@ -124,9 +124,21 @@ function renderProgress(){
 
 /* counter render progress */
 
-function renderCounter(){
+/* function renderCounter(){
     if(count <= questionTime){
         counter.innerHTML = count;
-        timeGauge.style.width = `${gaugeUnit}px`;
+        timeGauge.style.width = `${count * gaugeUnit}px`;
+        count ++
+    }else{
+        count = 0;
+        anwserIsWrong();
+        if(runningQuestion < lastQuestion){
+            runningQuestion++;
+            renderQuestion();
+        }else{
+            clearInterval(TIMER);
+            scoreRender();
+        }
     }
-}
+} 
+   */
