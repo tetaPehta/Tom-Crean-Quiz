@@ -2,7 +2,7 @@
 const start = document.getElementById('start');
 const quiz = document.getElementById('quiz');
 const question = document.getElementById('question');
-const questionimg = document.getElementById('questionimg');
+const questionimg = document.getElementById('question-img');
 const choiceA = document.getElementById('A');
 const choiceB = document.getElementById('B');
 const choiceC= document.getElementById('C');
@@ -16,7 +16,7 @@ const scoreDiv = document.getElementById('score-container');
 
 let questions = [
  {
-    imgSrc: "images/southpole.jpeg",
+    imgSrc: "../images/southpole.jpeg",
     question: "NAME THE CONTINENT THAT TOM CREAN TRAVELED TO?", 
     choiceA:"Australia",
     choiceB:"North Pole",
@@ -25,7 +25,7 @@ let questions = [
     correct:"D"
         
  }, {
-    imgSrc: "images/south-pole-pub.jpeg",
+    imgSrc: "../images/south-pole-pub.jpeg",
     question: "WHAT NIS THE NAME OF THE ICONIC PUB IN ANNASCAUL, CO.KERRY?", 
     choiceA:"Tom Crean Pub",
     choiceB:"South Pole Inn",
@@ -34,7 +34,7 @@ let questions = [
     correct:"B"
      
  }, {
-    imgSrc: "images/tom-crean-sock1.jpeg",
+    imgSrc: "../images/tom-crean-sock1.jpeg",
     question: "WHAT IS ON TOM CREANS HEAD IN THE FAMOUS PICTURE ON BOARD OF SHIP ENDURANCE?", 
     choiceA:"Sock from his travels",
     choiceB:"His captains hat",
@@ -43,7 +43,7 @@ let questions = [
     correct:"C"
  
  }, {
-    imgSrc: "images/tom-crean-statue.jpeg",
+    imgSrc: "../images/tom-crean-statue.jpeg",
     question: "WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUES OF HIS MEMORIAL PARK?", 
     choiceA:"Toby, Nelson, Nell",
     choiceB:"Tom, Sean, Bobby",
@@ -52,7 +52,7 @@ let questions = [
     correct:"A"
  
  }, {
-    imgSrc: "images/old-tom-crean.jpeg",
+    imgSrc: "i../images/old-tom-crean.jpeg",
     question: "WHAT PART OF HIS BODY DID TOM CREAN SHOW TO THE LOCAL KIDS TO SCARE THEM AWAY?", 
     choiceA:"His black toes",
     choiceB:"His wobbly tooth",
@@ -61,7 +61,7 @@ let questions = [
     correct:"A"
  
  }, {
-    imgSrc: "images/southpole.jpeg",
+    imgSrc: "../images/southpole.jpeg",
     question: "TOM FOUND A FURRY ANIMAL ONBOARD THE SHIP TERRA NOVA IN 1910. WHAT IS THE TITLE OF THE BOOK?", 
     choiceA:"Tom Crean's Dog",
     choiceB:"Tom Crean's Rabbit",
@@ -70,7 +70,7 @@ let questions = [
     correct:"B"
  
  }, {
-    imgSrc: "images/tom-crean-brewery.jpeg",
+    imgSrc: "../images/tom-crean-brewery.jpeg",
     question: "TOM CREANS FAMILY OPENED A BREWARY IN KENMARE, IRELAND. NAME THE ALE THEY MAKE?", 
     choiceA:"Expedition Ale",
     choiceB:"South Pole Ale",
@@ -86,8 +86,8 @@ let questions = [
 
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
-let count = 0;
-let score = 0;
+/*let count = 0;
+let score = 0; */
 
 /* rendering a question for quiz */
 
@@ -95,7 +95,7 @@ function renderQuestion(){
    let q = questions[runningQuestion];
 
    question.innerHTML = "<p>"+ q.question +"</p>";
-  /* questionimg.innerHTML = `img src=${q.question}>`; */
+   questionimg.innerHTML = `<img src=${q.imgSrc}>`; 
    choiceA.innerHTML = q.choiceA;
    choiceB.innerHTML = q.choiceB;
    choiceC.innerHTML = q.choiceC;
@@ -110,13 +110,12 @@ function startQuiz (){
     start.style.display = "none";
     renderQuestion();
     quiz.style.display = "block";
-    renderProgress();
-    renderCounter();
+  
 }
 
 /* render progress */
 
-/*function renderProgress(){
+function renderProgress(){
     for(let qInex = 0; qInex <= lastQuestion; qInex++){
         progress.innerHTML += "<div class='prog' id=" + qInex + "></div>"; 
     }
@@ -124,7 +123,7 @@ function startQuiz (){
 
 /* counter render progress */
 
-/* function renderCounter(){
+function renderCounter(){
     if(count <= questionTime){
         counter.innerHTML = count;
         timeGauge.style.width = `${count * gaugeUnit}px`;
@@ -141,4 +140,7 @@ function startQuiz (){
         }
     }
 } 
-   */
+   
+
+/* correct and wrong anwser */
+
