@@ -68,7 +68,7 @@ let questions = [
     correct:"B"
  
  }, {
-    imgSrc: "images/southpole.jpeg",
+    imgSrc: "images/tom-crean-brewery.jpeg",
     question: "TOM CREANS FAMILY OPENED A BREWARY IN KENMARE, IRELAND. NAME THE ALE THEY MAKE?", 
     choiceA:"Expedition Ale",
     choiceB:"South Pole Ale",
@@ -80,9 +80,9 @@ let questions = [
    
 ]
 
-/* Onclick events for buttons. Action will call respective functions for particular button when clicked*/
+/* variables */
 
-restartBtn.addEventListener('click',restart);
-prevBtn.addEventListener('click',prev);
-nextBtn.addEventListener('click',next);
-restartBtn.addEventListener('click',submit);
+const lastQuestion = questions.length - 1;
+let runningQuestion = 0;
+let count = 0;
+let score = 0;

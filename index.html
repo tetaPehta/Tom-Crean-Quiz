@@ -23,13 +23,28 @@
           including Robert Falcon Scott's 1911 to 1913 Terra Nova Expedition.</p>
     </div>
   </section>
-  <!--Responsive cointainer-->
+  <!--Responsive cointainer
   <div class="container-index">
       <div>
         <a href="quiz.html" class="btn-start">EXPLORE</a>
       </div>
-  </div>
+  </div> -->
 
+<div class="conteiner">
+        <div id="start">Start Quiz</div>
+        <div id="quiz" style="display : none">
+            <div id="question"></div>
+            <div id="question-img"></div>
+            <div id="choiches">
+                <div class="choice" id="A" onclick="checkAnwser('A')"></div>
+                <div class="choice" id="B" onclick="checkAnwser('B')"></div>
+                <div class="choice" id="C" onclick="checkAnwser('C')"></div>
+                <div class="choice" id="D" onclick="checkAnwser('D')"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="score-container" style="display:none"></div>
+    </div>
 
 
 
