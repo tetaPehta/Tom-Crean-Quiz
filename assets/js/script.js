@@ -1,11 +1,14 @@
-const restartBtn = document.getElementById('restart');
-const prevBtn = document.getElementById('prev');
-const nextBtn = document.getElementById('next');
-const submitBtn = document.getElementById('submit');
-const trueBtn = document.getElementById('True');
-const falseBtn = document.getElementById('False');
-const userScore = document.getElementById('user-score');
-const questionText = document.getElementById('question-text');
+/* select all elements */
+const start = document.getElementById('start');
+const quiz = document.getElementById('quiz');
+const question = document.getElementById('question');
+const questionimg = document.getElementById('question-img');
+const choiceA = document.getElementById('A');
+const choiceB = document.getElementById('B');
+const choiceC= document.getElementById('C');
+const choiceD = document.getElementById('D');
+const progress = document.getElementById('progress');
+const scorediv = document.getElementById('score-container');
 
 /* questions and possible anwsers for the quiz, with true or false statment.*/
 
