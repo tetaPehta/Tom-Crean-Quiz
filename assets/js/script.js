@@ -86,3 +86,24 @@ const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
 let score = 0;
+
+/* rendering a question for quiz */
+
+function renderQuestion(){
+   let q = questions[runningQuestion];
+
+   question.innerHTML = "<p>"+ q.question +"</p>";
+   questionimg.innerHTML = "<img src =" = q.questionimg + ">";
+   choiceA.innerHTML = q.choiceA;
+   choiceB.innerHTML = q.choiceB;
+   choiceC.innerHTML = q.choiceC;
+   choiceD.innerHTML = q.choiceD;
+}
+
+start.addEventListener("click",startQuiz);
+
+/* start quiz function */
+
+function startQuiz (){
+    start.style.display = "none";
+}
