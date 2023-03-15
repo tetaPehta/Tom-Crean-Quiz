@@ -37,6 +37,7 @@ p {
     text-align: center;
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
+    padding-bottom: 2rem;
     
 }
 
@@ -59,7 +60,17 @@ p {
     padding-top: 30px;
  
 }
-
+.btn {
+    font-size: 3rem;
+	text-transform: uppercase;
+    padding-top: 10px;
+    color: #3a3a3a;
+    padding-left:18em;
+    
+    
+   
+}
+ /* style for quiz.html */
 .container-index {
     background-color: aliceblue;
     height: 400px;
@@ -112,6 +123,31 @@ p {
     width: 300px;
     position: absolute;
     padding: 15px;
+}
+
+#timer{
+    display: grid;
+    height: 100px;
+    width: 200px;
+}
+#counter {
+    font-size: 2em;
+}
+#btimeGauge {
+    width: 200px;
+    height: 15px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+#timeGauge {
+    height: 15px;
+    border-radius: 15px;
+    background-color: aqua;
+}
+#progress {
+    width: 400px;
+    position: absolute;
+    padding: 5px;
 }
 
 
