@@ -78,7 +78,7 @@ let questions = [
  
  },
    
-]
+];
 
 /* variables */
 
@@ -106,4 +106,16 @@ start.addEventListener("click",startQuiz);
 
 function startQuiz (){
     start.style.display = "none";
+    renderQuestion();
+    quiz.style.display = "block";
+    renderProgress();
+    renderCounter();
+}
+
+/* render progress */
+
+function renderProgress(){
+    for(let qInex = 0; qIndex <= lastQuestion; qInex++){
+        progress.innerHTML += "<div class='prog' id=" + qInex + "></div>"; 
+    }
 }
