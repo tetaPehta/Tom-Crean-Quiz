@@ -86,61 +86,30 @@ let questions = [
 
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
-/*let count = 0;
-let score = 0; */
+
 
 /* rendering a question for quiz */
 
-function renderQuestion(){
-   let q = questions[runningQuestion];
 
-   question.innerHTML = "<p>"+ q.question +"</p>";
-   questionimg.innerHTML = `<img src=${q.imgSrc}>`; 
-   choiceA.innerHTML = q.choiceA;
-   choiceB.innerHTML = q.choiceB;
-   choiceC.innerHTML = q.choiceC;
-   choiceD.innerHTML = q.choiceD;
-}
-
-start.addEventListener("click",startQuiz);
 
 /* start quiz function */
 
-function startQuiz (){
-    start.style.display = "none";
-    renderQuestion();
-    quiz.style.display = "block";
-  
-}
+
 
 /* render progress */
 
-function renderProgress(){
-    for(let qInex = 0; qInex <= lastQuestion; qInex++){
-        progress.innerHTML += "<div class='prog' id=" + qInex + "></div>"; 
-    }
-}
+
 
 /* counter render progress */
 
-function renderCounter(){
-    if(count <= questionTime){
-        counter.innerHTML = count;
-        timeGauge.style.width = `${count * gaugeUnit}px`;
-        count ++
-    }else{
-        count = 0;
-        anwserIsWrong();
-        if(runningQuestion < lastQuestion){
-            runningQuestion++;
-            renderQuestion();
-        }else{
-            clearInterval(TIMER);
-            scoreRender();
-        }
-    }
-} 
+
+
    
 
 /* correct and wrong anwser */
+
+
+
+
+
 
