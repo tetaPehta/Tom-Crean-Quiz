@@ -48,9 +48,9 @@ p {
 }
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url("../images/tom-crean-hero1.jpeg") no-repeat center center;
+    background: url("../images/human-sleigh.jpg") no-repeat center center;
     background-size: center;
     margin-top: 30px;
 }
@@ -59,6 +59,62 @@ p {
     padding-top: 30px;
  
 }
+
+.container-index {
+    background-color: aliceblue;
+    height: 400px;
+    width: 600px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px 0px;
+    text-align: center;
+    align-items: center;
+    margin-left: 40rem;
+
+}
+
+#start {
+    font-family: Lora, sans-serif;
+    font-weight: 200;
+    color:#3a3a3a; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+
+}
+
+#question-img {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+#question {
+    font-family: Lora, sans-serif;
+    font-weight: 200;
+    color:#3a3a3a; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+}
+#question p {
+    font-family: Lora, sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+.choice {
+    font-family: Lora, sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+#choices {
+    width: 300px;
+    position: absolute;
+    padding: 15px;
+}
+
+
 
 
 
