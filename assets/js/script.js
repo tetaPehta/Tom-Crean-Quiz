@@ -93,7 +93,7 @@ function renderQuestion(){
    let q = questions[runningQuestion];
 
    question.innerHTML = "<p>"+ q.question +"</p>";
-   questionimg.innerHTML = `<img src =${q.imgSrc}>`;
+   questionimg.innerHTML = "img src=" + q.imgSrc + ">";
    choiceA.innerHTML = q.choiceA;
    choiceB.innerHTML = q.choiceB;
    choiceC.innerHTML = q.choiceC;
@@ -115,7 +115,15 @@ function startQuiz (){
 /* render progress */
 
 function renderProgress(){
-    for(let qInex = 0; qIndex <= lastQuestion; qInex++){
+    for(let qInex = 0; qInex <= lastQuestion; qInex++){
         progress.innerHTML += "<div class='prog' id=" + qInex + "></div>"; 
+    }
+}
+
+/* counter render progress */
+
+function renderCounter(){
+    if(count <= questionTime){
+        counter.innerHTML = 
     }
 }
