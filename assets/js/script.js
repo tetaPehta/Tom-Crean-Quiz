@@ -7,8 +7,10 @@ const choiceA = document.getElementById('A');
 const choiceB = document.getElementById('B');
 const choiceC= document.getElementById('C');
 const choiceD = document.getElementById('D');
+const counter = document.getElementById('counter');
 const progress = document.getElementById('progress');
-const scorediv = document.getElementById('score-container');
+const timeGauge = document.getElementById('timeGauge');
+const scoreDiv = document.getElementById('score-container');
 
 /* questions and possible anwseres for multi choice quiz.*/
 
@@ -124,6 +126,7 @@ function renderProgress(){
 
 function renderCounter(){
     if(count <= questionTime){
-        counter.innerHTML = 
+        counter.innerHTML = count;
+        timeGauge.style.width = `${gaugeUnit}px`;
     }
 }
