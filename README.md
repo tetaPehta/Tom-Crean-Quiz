@@ -44,3 +44,11 @@ Will Implement the changes in HTML and JS structure for Multiple Choice Quiz.
 ⋅⋅⋅When re-building the quiz into correct form, I have merged quiz.html and index.html. Missing the function for start of Quiz.
 FIX:
 Added the funtion in JS.
+
+4. 
+
+
+## CREDIT 
+
+1. Code Explained: Watched, wrote and re-wrote this tutorial from:[Code-Explained-JS] (https://www.youtube.com/watch?v=49pYIMygIcU)
+2. Code Studio: [Code Ninja - JS tutorial on True and False ](https://www.codingninjas.com/)

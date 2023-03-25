@@ -1,16 +1,4 @@
-/* select all elements */
-const start = document.getElementById('start');
-const quiz = document.getElementById('quiz');
-const question = document.getElementById('question');
-const questionimg = document.getElementById('question-img');
-const choiceA = document.getElementById('A');
-const choiceB = document.getElementById('B');
-const choiceC= document.getElementById('C');
-const choiceD = document.getElementById('D');
-const counter = document.getElementById('counter');
-const progress = document.getElementById('progress');
-const timeGauge = document.getElementById('timeGauge');
-const scoreDiv = document.getElementById('score-container');
+
 
 /* questions and possible anwseres for multi choice quiz.*/
 
@@ -82,31 +70,10 @@ let questions = [
    
 ];
 
-/* variables */
-
-const lastQuestion = questions.length - 1;
-let runningQuestion = 0;
-
-
-/* rendering a question for quiz */
 
 
 
-/* start quiz function */
 
-
-
-/* render progress */
-
-
-
-/* counter render progress */
-
-
-
-   
-
-/* correct and wrong anwser */
 
 
 
