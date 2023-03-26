@@ -1,5 +1,7 @@
  # TOM CREAN QUIZ
 
+ Link to live page:https://tetapehta.github.io/Tom-Crean-Quiz/
+
  In this Quiz is for users that already have the knowlege of Tom Crean and his explorations to the Sout Pole, 
  and for users that had never heard of him. Questions and anwsers are humorus in nature and help the User gain historical knowlege 
  about Tom Crean and have fun while learning. It composes 4 possible anwsers to the question. In the end of the Quiz links are presented for Users that would like to learn more about the Antartic Explorer.
@@ -84,6 +86,6 @@ Added the funtion in JS.
 
 ## THANKS
 
-I would like to thank my mentor, Student care and Tutor support. 
-This was a very hard project for me to grasp and I'm aware of its faoults and shortcommings.
+I would like to thank my Mentor, Student care and Tutor support. 
+This was a very hard project for me to grasp and I'm aware of its faults and shortcommings.
 I will have to devote more time to learn JS. 
