@@ -71,7 +71,16 @@ p {
    
 }
  /* style for quiz.html */
-
+.container-index {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 700px;
+    max-width: 120vw;
+    overflow: hidden;
+}
+.quiz-header {
+    padding: 1.2rem;
+}
 
 
 
