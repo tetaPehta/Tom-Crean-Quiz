@@ -2,9 +2,9 @@
 
 /* questions and possible anwseres for multi choice quiz.*/
 
-const quizData =[
+const quizData = [
  {
-    imgSrc: "../images/southpole.jpeg",
+    
     question: "NAME THE CONTINENT THAT TOM CREAN TRAVELED TO?", 
     choiceA:"Australia",
     choiceB:"North Pole",
@@ -14,7 +14,7 @@ const quizData =[
         
  }, 
  {
-    imgSrc: "../images/south-pole-pub.jpeg",
+    
     question: "WHAT NIS THE NAME OF THE ICONIC PUB IN ANNASCAUL, CO.KERRY?", 
     choiceA:"Tom Crean Pub",
     choiceB:"South Pole Inn",
@@ -24,7 +24,7 @@ const quizData =[
      
  }, 
  {
-    imgSrc: "../images/tom-crean-sock1.jpeg",
+    
     question: "WHAT IS ON TOM CREANS HEAD IN THE FAMOUS PICTURE ON BOARD OF SHIP ENDURANCE?", 
     choiceA:"Sock from his travels",
     choiceB:"His captains hat",
@@ -34,7 +34,7 @@ const quizData =[
  
  }, 
  {
-    imgSrc: "../images/tom-crean-statue.jpeg",
+    
     question: "WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUES OF HIS MEMORIAL PARK?", 
     choiceA:"Toby, Nelson, Nell",
     choiceB:"Tom, Sean, Bobby",
@@ -44,7 +44,7 @@ const quizData =[
  
  }, 
  {
-    imgSrc: "i../images/old-tom-crean.jpeg",
+    
     question: "WHAT PART OF HIS BODY DID TOM CREAN SHOW TO THE LOCAL KIDS TO SCARE THEM AWAY?", 
     choiceA:"His black toes",
     choiceB:"His wobbly tooth",
@@ -64,7 +64,7 @@ const quizData =[
  
  }, 
  {
-    imgSrc: "../images/tom-crean-brewery.jpeg",
+    
     question: "TOM CREANS FAMILY OPENED A BREWARY IN KENMARE, IRELAND. NAME THE ALE THEY MAKE?", 
     choiceA:"Expedition Ale",
     choiceB:"South Pole Ale",
@@ -78,6 +78,14 @@ const quizData =[
 const quiz = document.getElementById("quiz");
 const answerElements = document.querySelectorAll(".anwser");
 const questionElement = document.getElementById("question");
+const a_text = document.getElementById("a_text");
+const b_text = document.getElementById("b_text");
+const c_text = document.getElementById("c_text");
+const d_text = document.getElementById("d_text");
+
+let currentQuiz = 0;
+let score = 0;
+
 
 
 
