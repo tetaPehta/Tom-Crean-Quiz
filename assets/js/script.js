@@ -15,7 +15,7 @@ const quizData = [
  }, 
  {
     
-    question: "WHAT NIS THE NAME OF THE ICONIC PUB IN ANNASCAUL, CO.KERRY?", 
+    question: "WHAT IS THE NAME OF THE ICONIC PUB IN ANNASCAUL, CO.KERRY?", 
     a:"Tom Crean Pub",
     b:"South Pole Inn",
     c:"The penguin Pub",
@@ -35,17 +35,17 @@ const quizData = [
  }, 
  {
     
-    question: "WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUES OF HIS MEMORIAL PARK?", 
+    question: "WHAT ARE THE NAMES OF 3 PUPIES, TOM CREAN IS HOLDING IN THE STATUE OF HIS MEMORIAL PARK?", 
     a:"Toby, Nelson, Nell",
     b:"Tom, Sean, Bobby",
-    c:"Jack, Jhon, Green",
+    c:"Jack, John, Green",
     d:"James, Ruby, Terra",
     correct:"a"
  
  }, 
  {
     
-    question: "WHAT PART OF HIS BODY DID TOM CREAN SHOW TO THE LOCAL KIDS TO SCARE THEM AWAY?", 
+    question: "WHAT PART OF HIS BODY, DID TOM CREAN SHOW TO THE LOCAL KIDS TO SCARE THEM AWAY?", 
     a:"His black toes",
     b:"His wobbly tooth",
     c:"His broken leg",
