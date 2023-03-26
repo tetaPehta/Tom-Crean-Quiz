@@ -38,7 +38,7 @@ const quizData = [
     question: "WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUES OF HIS MEMORIAL PARK?", 
     choicea:"Toby, Nelson, Nell",
     choiceb:"Tom, Sean, Bobby",
-    choiceb:"Jack, Jhon, Green",
+    choicec:"Jack, Jhon, Green",
     choiced:"James, Ruby, Terra",
     correct:"a"
  
@@ -58,7 +58,7 @@ const quizData = [
     question: "TOM FOUND A FURRY ANIMAL ONBOARD THE SHIP TERRA NOVA IN 1910. WHAT IS THE TITLE OF THE BOOK?", 
     choicea:"Tom Crean's Dog",
     choiceb:"Tom Crean's Rabbit",
-    choiced:"Tom Crean's Fox",
+    choicec:"Tom Crean's Fox",
     choiced:"Tom Crean's Wolf",
     correct:"b"
  
