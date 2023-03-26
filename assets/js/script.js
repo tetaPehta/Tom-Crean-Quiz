@@ -90,6 +90,14 @@ const deselectAnwsers = () => {
    answerElements.forEach((anwser) => (anwser.checked = false));
 };
 
+const getSelected = () => {
+   let anwser;
+   answerElements.forEach((answerElement) => {
+      if (answerElement.checked) anwser = answerElement.id;
+   });
+   return anwser;
+};
+
 
 
 
