@@ -52,3 +52,4 @@ Added the funtion in JS.
 
 1. Code Explained: Watched, wrote and re-wrote this tutorial from:[Code-Explained-JS] (https://www.youtube.com/watch?v=49pYIMygIcU)
 2. Code Studio: [Code Ninja - JS tutorial on True and False ](https://www.codingninjas.com/)
+3. Foolish Developer: [Simple Quiz App Using JS](https://foolishdeveloper.com/javascript-quiz-app/)

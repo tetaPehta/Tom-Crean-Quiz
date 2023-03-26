@@ -2,7 +2,7 @@
 
 /* questions and possible anwseres for multi choice quiz.*/
 
-let questions = [
+[
  {
     imgSrc: "../images/southpole.jpeg",
     question: "NAME THE CONTINENT THAT TOM CREAN TRAVELED TO?", 
