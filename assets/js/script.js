@@ -86,6 +86,10 @@ const d_text = document.getElementById("d_text");
 let currentQuiz = 0;
 let score = 0;
 
+const deselectAnwsers = () => {
+   answerElements.forEach((anwser) => (anwser.checked = false));
+};
+
 
 
 
