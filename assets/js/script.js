@@ -11,7 +11,7 @@ const quizData = [
     c:"Africa",
     d:"South Pole",
     correct:"d",
-    qImgSrc: "images/1.png"
+    qImgSrc: "./images/1.png",
         
  }, 
  {
