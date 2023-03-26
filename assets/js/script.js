@@ -6,71 +6,71 @@ const quizData = [
  {
     
     question: "NAME THE CONTINENT THAT TOM CREAN TRAVELED TO?", 
-    choicea:"Australia",
-    choiceb:"North Pole",
-    choicec:"Africa",
-    choiced:"South Pole",
-    correct:"d"
+    a:"Australia",
+    b:"North Pole",
+    c:"Africa",
+    d:"South Pole",
+    correct:"d",
         
  }, 
  {
     
     question: "WHAT NIS THE NAME OF THE ICONIC PUB IN ANNASCAUL, CO.KERRY?", 
-    choicea:"Tom Crean Pub",
-    choiceb:"South Pole Inn",
-    choicec:"The penguin Pub",
-    choiced:"The Iceberg Inn",
-    correct:"b"
+    a:"Tom Crean Pub",
+    b:"South Pole Inn",
+    c:"The penguin Pub",
+    d:"The Iceberg Inn",
+    correct:"b",
      
  }, 
  {
     
     question: "WHAT IS ON TOM CREANS HEAD IN THE FAMOUS PICTURE ON BOARD OF SHIP ENDURANCE?", 
-    choicea:"Sock from his travels",
-    choiceb:"His captains hat",
-    choicec:"Sleve of his jumper",
-    choiced:"Cap of a crewman",
-    correct:"c"
+    a:"Sock from his travels",
+    b:"His captains hat",
+    c:"Sleve of his jumper",
+    d:"Cap of a crewman",
+    correct:"c",
  
  }, 
  {
     
     question: "WHAT ARE THE NAMES OF 3 PUPIES TOM CREAN IS HOLDING IN THE STATUES OF HIS MEMORIAL PARK?", 
-    choicea:"Toby, Nelson, Nell",
-    choiceb:"Tom, Sean, Bobby",
-    choicec:"Jack, Jhon, Green",
-    choiced:"James, Ruby, Terra",
+    a:"Toby, Nelson, Nell",
+    b:"Tom, Sean, Bobby",
+    c:"Jack, Jhon, Green",
+    d:"James, Ruby, Terra",
     correct:"a"
  
  }, 
  {
     
     question: "WHAT PART OF HIS BODY DID TOM CREAN SHOW TO THE LOCAL KIDS TO SCARE THEM AWAY?", 
-    choicea:"His black toes",
-    choiceb:"His wobbly tooth",
-    choicec:"His broken leg",
-    choiced:"His crooked finger",
-    correct:"a"
+    a:"His black toes",
+    b:"His wobbly tooth",
+    c:"His broken leg",
+    d:"His crooked finger",
+    correct:"a",
  
  }, 
  {
     
     question: "TOM FOUND A FURRY ANIMAL ONBOARD THE SHIP TERRA NOVA IN 1910. WHAT IS THE TITLE OF THE BOOK?", 
-    choicea:"Tom Crean's Dog",
-    choiceb:"Tom Crean's Rabbit",
-    choicec:"Tom Crean's Fox",
-    choiced:"Tom Crean's Wolf",
-    correct:"b"
+     a:"Tom Crean's Dog",
+     b:"Tom Crean's Rabbit",
+     c:"Tom Crean's Fox",
+     d:"Tom Crean's Wolf",
+    correct:"b",
  
  }, 
  {
     
     question: "TOM CREANS FAMILY OPENED A BREWARY IN KENMARE, IRELAND. NAME THE ALE THEY MAKE?", 
-    choicea:"Expedition Ale",
-    choiceb:"South Pole Ale",
-    choicec:"The Frozen Ale",
-    choiced:"Tom Crean's Ale",
-    correct:"a"
+    a:"Expedition Ale",
+    b:"South Pole Ale",
+    c:"The Frozen Ale",
+    d:"Tom Crean's Ale",
+    correct:"a",
  
  },
    
