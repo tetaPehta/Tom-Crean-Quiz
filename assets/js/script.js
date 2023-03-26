@@ -11,7 +11,7 @@ const quizData = [
     c:"Africa",
     d:"South Pole",
     correct:"d",
-    qImgSrc: "./images/1.png",
+    
     
         
  }, 
@@ -86,7 +86,7 @@ const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
-const qImg = document.getElementById("qImg");
+
 let currentQuiz = 0;
 let score = 0;
 
