@@ -11,6 +11,7 @@ const quizData = [
     c:"Africa",
     d:"South Pole",
     correct:"d",
+    imgSrc: "images/1.png"
         
  }, 
  {
@@ -51,6 +52,7 @@ const quizData = [
     c:"His broken leg",
     d:"His crooked finger",
     correct:"a",
+
  
  }, 
  {
@@ -61,6 +63,7 @@ const quizData = [
      c:"Tom Crean's Fox",
      d:"Tom Crean's Wolf",
     correct:"b",
+   
  
  }, 
  {
