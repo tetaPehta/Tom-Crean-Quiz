@@ -116,9 +116,16 @@ submitButton.addEventListner("click", () => {
     if (anwser === quizData[currentQuiz].correct) score ++;
     currentQuiz++;
     if (currentQuiz < quizData.length)  loadQuiz();
+    else {
+      quiz.innerHTML = `
+         <h2>You anwsered ${score}/${quizData.lenth} questions correctly</h2>
+         <button onclick = "history.go(0)" >Play Again</button>
+      `;
+    }
 
    }
 });
+
 
 
 
