@@ -76,7 +76,7 @@ const quizData = [
    
 ];
 const quiz = document.getElementById("quiz");
-const answerElements = document.querySelectorAll(".anwser");
+const answerElements = document.querySelectorAll("anwser");
 const questionElement = document.getElementById("question");
 const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
