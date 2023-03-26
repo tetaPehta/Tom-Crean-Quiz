@@ -81,6 +81,17 @@ p {
 .quiz-header {
     padding: 1.2rem;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    font-size: 1.3rem;
+    margin: 1.2rem 0; 
+}
+ul li label {
+    cursor: pointer;
+}
 
 
 
