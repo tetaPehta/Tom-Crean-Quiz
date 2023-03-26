@@ -110,6 +110,16 @@ const loadQuiz = () => {
 
 loadQuiz ();
 
+submitButton.addEventListner("click", () => {
+   const anwser = getSelected();
+   if (anwser) {
+    if (anwser === quizData[currentQuiz].correct) score ++;
+    currentQuiz++;
+    if (currentQuiz < quizData.length)  loadQuiz();
+
+   }
+});
+
 
 
 
