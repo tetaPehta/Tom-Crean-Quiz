@@ -76,7 +76,7 @@ const quizData = [
    
 ];
 const quiz = document.getElementById("quiz");
-const answerElements = document.querySelectorAll("anwser");
+const answerElements = document.querySelectorAll(".anwser");
 const questionElement = document.getElementById("question");
 const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
@@ -120,7 +120,7 @@ submitButton.addEventListener("click", () => {
        quiz.innerHTML = `
              <h2>You answered ${score}/${quizData.length} questions correctly</h2>
              <button onclick="history.go(0)">Play Again</button>
-         ` 
+         ` ;
      }
    }
  });
