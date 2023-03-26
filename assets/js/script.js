@@ -110,21 +110,20 @@ const loadQuiz = () => {
 
 loadQuiz ();
 
-submitButton.addEventListner("click", () => {
-   const anwser = getSelected();
-   if (anwser) {
-    if (anwser === quizData[currentQuiz].correct) score ++;
-    currentQuiz++;
-    if (currentQuiz < quizData.length)  loadQuiz();
-    else {
-      quiz.innerHTML = `
-         <h2>You anwsered ${score}/${quizData.lenth} questions correctly</h2>
-         <button onclick = "history.go(0)" >Play Again</button>
-      `;
-    }
-
+submitButton.addEventListener("click", () => {
+   const answer = getSelected();
+   if (answer) {
+     if (answer === quizData[currentQuiz].correct) score++;
+     currentQuiz++;
+     if (currentQuiz < quizData.length) loadQuiz();
+     else {
+       quiz.innerHTML = `
+             <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+             <button onclick="history.go(0)">Play Again</button>
+         ` 
+     }
    }
-});
+ });
 
 
 
